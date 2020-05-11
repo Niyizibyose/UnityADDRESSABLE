@@ -5,6 +5,7 @@ using Vuforia;
 
 public class SimpleCloudHandler : MonoBehaviour , IObjectRecoEventHandler
 {
+
     public ImageTargetBehaviour ImageTargetTemplate;
     private CloudRecoBehaviour mCloudRecoBehaviour;
     private bool mIsScanning = false;
@@ -33,7 +34,6 @@ public class SimpleCloudHandler : MonoBehaviour , IObjectRecoEventHandler
     {
         Debug.Log("Cloud Reco update error " + updateError.ToString());
     }
-
     public void OnStateChanged(bool scanning)
     {
         mIsScanning = scanning;
@@ -81,5 +81,7 @@ public class SimpleCloudHandler : MonoBehaviour , IObjectRecoEventHandler
             }
         }
     }
-}
 
+
+
+}
