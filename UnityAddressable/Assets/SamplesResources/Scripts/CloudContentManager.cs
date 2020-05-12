@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CloudContentManager : MonoBehaviour
 {
     #region PRIVATE_CONSTANTS
-    const string JSON_URL = "https://developer.vuforia.com/samples/cloudreco/json/";
+    const string JSON_URL = "https://developer.vuforia.com/targetmanager/singleCloudTarget/cloudSingleImageTargetDetails#";
     // JSON File Key Strings
     const string TITLE_KEY = "title";
     const string AUTHOR_KEY = "author";
@@ -131,6 +131,7 @@ public class CloudContentManager : MonoBehaviour
 
     IEnumerator WebRequest(string url)
     {
+        url = "https://www.youtube.com/watch?v=6BTKTuNNFUQ";
         Debug.Log("WebRequest() called: \n" + url);
 
         wwwRequestInProgress = true;
