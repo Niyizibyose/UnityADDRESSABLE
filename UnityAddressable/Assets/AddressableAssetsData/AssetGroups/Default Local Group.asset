@@ -20,9 +20,10 @@ MonoBehaviour:
   - m_GUID: 9fc0d4010bbf28b4594072e72b8655ab
     m_Address: Assets/Scenes/AddressablesAR.unity
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 9a5ffc2f03b254a418ab7774aa5d8c98, type: 2}
   m_SchemaSet:

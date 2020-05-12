@@ -9,6 +9,6 @@ public class LoadAssets : MonoBehaviour
     void Start()
     {
         assetReference.InstantiateAsync();
-
+        //Addressables.LoadScene("AddressablesTut");
     }
 }
