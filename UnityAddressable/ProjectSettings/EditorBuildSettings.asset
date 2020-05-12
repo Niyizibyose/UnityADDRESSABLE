@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SamplesResources/Scenes/3-Books.unity
     guid: 2c51ec0285002449bbd58266c6370f7f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AddressablesAR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:

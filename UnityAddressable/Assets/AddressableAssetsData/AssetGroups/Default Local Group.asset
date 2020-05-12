@@ -17,11 +17,10 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: bd5a169bc95defe4ca5f50d225536ebc
   m_SerializeEntries:
-  - m_GUID: b696e0be4af4f2145a7197d3871282a8
-    m_Address: Assets/Prefabs/Quad.prefab
+  - m_GUID: 9fc0d4010bbf28b4594072e72b8655ab
+    m_Address: Assets/Scenes/AddressablesAR.unity
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - default
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
